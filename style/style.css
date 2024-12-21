@@ -270,6 +270,12 @@ color: var(--black-color);
 .side-link .section-link a:hover{
     background-color: var(--light-gray-color);
 }
+.video-list a{
+    transition: all ease .3s;
+}
+.video-list a:hover {
+    transform: scale(.9);
+}
 
 @media(max-width: 780px) {
     .main-layout .sidebar{
